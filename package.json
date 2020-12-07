@@ -1,0 +1,19 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "This container image can be deployed on a Kubernetes cluster. When accessed via a web browser on port `8080`, it will display:\r - a default **Hello world!** message\r - the pod name\r - node os information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sobolobo/hello-kubernetes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sobolobo/hello-kubernetes/issues"
+  },
+  "homepage": "https://github.com/sobolobo/hello-kubernetes#readme"
+}
